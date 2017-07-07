@@ -63,6 +63,3 @@ def translateMessage(key, message, mode):
 # the main() function.
 if __name__ == '__main__':
     main()
-
-if __name__ == '__main__':
-    main()
