@@ -95,7 +95,7 @@ def main():
 		print("--------");
 		variables();
 		subprocess.call(['./imagecreation.sh',hard(key,message,attrib), picture, 'hard.png'])
-		api.update_with_media('hard.png', status="Difficulty: Medium");
+		api.update_with_media('hard.png', status="Difficulty: Hard");
 
 
 if __name__ == '__main__':
